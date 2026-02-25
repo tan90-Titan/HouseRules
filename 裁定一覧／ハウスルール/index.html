@@ -26,9 +26,30 @@ fetch("HouseRules.txt")
     return response.text();
 })
 .then(data => {
-    document.getElementById("mainText").textContent = data;
-    })
-    .catch(error => {
+    const lines = data.split(/\r?\n/).filter(line => line.trim() !== "");;
+    const container = document.getElementById("mainText");
+    container.innerHTML = "";
+
+    lines.forEach(line => {
+        let element = document.createElement("div");
+
+        if (line.startsWith("▼")) {
+            element.className = "AllTitle";
+        } else if (line.startsWith("■")) {
+            element.className = "BlockTitle";
+        } else if (line.startsWith("●")) {
+            element.className = "BaseRule";
+        } else if (line.startsWith("★")) {
+            element.className = "HouseRule";
+        } else {
+            element.className = "normal";
+        }
+
+        element.textContent = line;
+        container.appendChild(element);
+    });
+})
+.catch(error => {
     document.getElementById("mainText").textContent = "エラー：" + error.message;
 });
 </script>

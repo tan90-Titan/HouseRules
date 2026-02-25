@@ -17,6 +17,7 @@ body {
 /* メイン */
 .header {
     height: auto;
+    width: 75%;
     margin: 20px 0 0 20px;
     padding: 0;
     color: #000;
@@ -26,21 +27,59 @@ body {
     line-height: 1.5;
 }
 .gameTitle {
-  margin: 15px 0 0 15px;
-  padding: 0 0 0 15px;
-  font-size: 26px;
-  font-weight: bold;
-  border-width: 0 0 0 4px;
-  border-style: solid;
-  border-color: #0f5296;
+    margin: 15px 0 0 15px;
+    width: 75%;
+    padding: 0 0 0 15px;
+    font-size: 26px;
+    font-weight: bold;
+    border-width: 0 0 0 4px;
+    border-style: solid;
+    border-color: #0f5296;
 }
 .mainText {
-  margin: 15px 0 35px 30px;
-  padding: 0 0 0 15px;
-  font-size: 20px;
-  border-width: 0 0 0 4px;
-  border-style: solid;
-  border-color: #0f5296;
+    margin: 15px 0 0 30px;
+    width: 75%;
+    padding: 0 0 0 15px;
+    font-size: 20px;
+    border-width: 0 0 0 4px;
+    border-style: solid;
+    border-color: #0f5296;
+}
+.AllTitle {
+    margin: 15px 0 0 30px;
+    width: 75%;
+    padding: 0 0 0 15px;
+    font-size: 24px;
+    border-width: 0 0 0 4px;
+    border-style: solid;
+    border-color: #0f5296;
+}
+.BlockTitle {
+    margin: 15px 0 0 30px;
+    width: 75%;
+    padding: 0 0 0 15px;
+    font-size: 22px;
+    border-width: 0 0 0 4px;
+    border-style: solid;
+    border-color: #0f5296;
+}
+.BaseRule {
+    margin: 15px 0 0 30px;
+    width: 75%;
+    padding: 0 0 0 15px;
+    font-size: 20px;
+    border-width: 0 0 0 4px;
+    border-style: solid;
+    border-color: #0f5296;
+}
+.HouseRule {
+    margin: 15px 0 0 30px;
+    width: 75%;
+    padding: 0 0 0 15px;
+    font-size: 20px;
+    border-width: 0 0 0 4px;
+    border-style: solid;
+    border-color: #0f5296;
 }
 
 
