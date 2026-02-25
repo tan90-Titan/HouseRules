@@ -25,6 +25,7 @@ body {
     font-weight: bold;
     border-top: 0;
     line-height: 1.5;
+    word-break: break-all;
 }
 .gameTitle {
     margin: 15px 0 0 15px;
@@ -35,6 +36,7 @@ body {
     border-width: 0 0 0 4px;
     border-style: solid;
     border-color: #0f5296;
+    word-break: break-all;
 }
 .mainText {
     margin: 15px 0 0 30px;
@@ -44,8 +46,9 @@ body {
     border-width: 0 0 0 4px;
     border-style: solid;
     border-color: #0f5296;
+    word-break: break-all;
 }
-.AllTitle {
+.allTitle {
     margin: 15px 0 0 30px;
     width: 75%;
     padding: 0 0 0 15px;
@@ -53,8 +56,9 @@ body {
     border-width: 0 0 0 4px;
     border-style: solid;
     border-color: #0f5296;
+    word-break: break-all;
 }
-.BlockTitle {
+.blockTitle {
     margin: 15px 0 0 30px;
     width: 75%;
     padding: 0 0 0 15px;
@@ -62,8 +66,9 @@ body {
     border-width: 0 0 0 4px;
     border-style: solid;
     border-color: #0f5296;
+    word-break: break-all;
 }
-.BaseRule {
+.baseRule {
     margin: 15px 0 0 30px;
     width: 75%;
     padding: 0 0 0 15px;
@@ -71,8 +76,9 @@ body {
     border-width: 0 0 0 4px;
     border-style: solid;
     border-color: #0f5296;
+    word-break: break-all;
 }
-.HouseRule {
+.houseRule {
     margin: 15px 0 0 30px;
     width: 75%;
     padding: 0 0 0 15px;
@@ -80,6 +86,17 @@ body {
     border-width: 0 0 0 4px;
     border-style: solid;
     border-color: #0f5296;
+    word-break: break-all;
+}
+.normal {
+    margin: 15px 0 0 30px;
+    width: 75%;
+    padding: 0 0 0 15px;
+    font-size: 20px;
+    border-width: 0 0 0 4px;
+    border-style: solid;
+    border-color: #0f5296;
+    word-break: break-all;
 }
 
 

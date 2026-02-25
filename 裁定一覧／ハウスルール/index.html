@@ -41,13 +41,13 @@ fetch("HouseRules.txt")
 
         // 先頭文字毎に適用するクラスを変更
         if (line.startsWith("▼")) {
-            element.className = "AllTitle";
+            element.className = "allTitle";
         } else if (line.startsWith("■")) {
-            element.className = "BlockTitle";
+            element.className = "blockTitle";
         } else if (line.startsWith("●")) {
-            element.className = "BaseRule";
+            element.className = "baseRule";
         } else if (line.startsWith("★")) {
-            element.className = "HouseRule";
+            element.className = "houseRule";
         } else {
             element.className = "normal";
         }
