@@ -16,8 +16,8 @@ body {
 
 /* メイン */
 .header {
+    width: 90%;
     height: auto;
-    width: 75%;
     margin: 20px 0 0 20px;
     padding: 0;
     color: #000;
@@ -28,8 +28,8 @@ body {
     word-break: break-all;
 }
 .gameTitle {
+    width: 90%;
     margin: 15px 0 0 15px;
-    width: 75%;
     padding: 0 0 0 15px;
     font-size: 26px;
     font-weight: bold;
@@ -39,8 +39,8 @@ body {
     word-break: break-all;
 }
 .mainText {
+    width: 90%;
     margin: 15px 0 0 30px;
-    width: 75%;
     padding: 0 0 0 15px;
     font-size: 20px;
     border-width: 0 0 0 4px;
@@ -49,36 +49,36 @@ body {
     word-break: break-all;
 }
 .allTitle {
+    width: 90%;
     margin: 15px 0 0 15px;
-    width: 75%;
     padding: 0;
     font-size: 25px;
     word-break: break-all;
 }
 .blockTitle {
+    width: 90%;
     margin: 30px 0 0 15px;
-    width: 75%;
     padding: 0;
     font-size: 24px;
     word-break: break-all;
 }
 .baseRule {
+    width: 90%;
     margin: 0 0 0 15px;
-    width: 75%;
     padding: 0;
     font-size: 20px;
     word-break: break-all;
 }
 .houseRule {
+    width: 90%;
     margin: 0 0 0 15px;
-    width: 75%;
     padding: 0;
     font-size: 20px;
     word-break: break-all;
 }
 .normal {
+    width: 90%;
     margin: 0 0 0 15px;
-    width: 75%;
     padding: 0;
     font-size: 20px;
     word-break: break-all;
