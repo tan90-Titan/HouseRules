@@ -49,53 +49,38 @@ body {
     word-break: break-all;
 }
 .allTitle {
-    margin: 15px 0 0 30px;
+    margin: 15px 0 0 15px;
     width: 75%;
-    padding: 0 0 0 15px;
-    font-size: 24px;
-    border-width: 0 0 0 4px;
-    border-style: solid;
-    border-color: #0f5296;
+    padding: 0;
+    font-size: 25px;
     word-break: break-all;
 }
 .blockTitle {
-    margin: 15px 0 0 30px;
+    margin: 30px 0 0 15px;
     width: 75%;
-    padding: 0 0 0 15px;
-    font-size: 22px;
-    border-width: 0 0 0 4px;
-    border-style: solid;
-    border-color: #0f5296;
+    padding: 0;
+    font-size: 24px;
     word-break: break-all;
 }
 .baseRule {
-    margin: 15px 0 0 30px;
+    margin: 0 0 0 15px;
     width: 75%;
-    padding: 0 0 0 15px;
+    padding: 0;
     font-size: 20px;
-    border-width: 0 0 0 4px;
-    border-style: solid;
-    border-color: #0f5296;
     word-break: break-all;
 }
 .houseRule {
-    margin: 15px 0 0 30px;
+    margin: 0 0 0 15px;
     width: 75%;
-    padding: 0 0 0 15px;
+    padding: 0;
     font-size: 20px;
-    border-width: 0 0 0 4px;
-    border-style: solid;
-    border-color: #0f5296;
     word-break: break-all;
 }
 .normal {
-    margin: 15px 0 0 30px;
+    margin: 0 0 0 15px;
     width: 75%;
-    padding: 0 0 0 15px;
+    padding: 0;
     font-size: 20px;
-    border-width: 0 0 0 4px;
-    border-style: solid;
-    border-color: #0f5296;
     word-break: break-all;
 }
 
