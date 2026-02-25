@@ -18,6 +18,7 @@
 </html>
 
 <script>
+// テキストファイルを読み込み
 fetch("HouseRules.txt")
 .then(response => {
     if (!response.ok) {
@@ -26,13 +27,19 @@ fetch("HouseRules.txt")
     return response.text();
 })
 .then(data => {
-    const lines = data.split(/\r?\n/).filter(line => line.trim() !== "");;
+    const lines = data.split(/\r?\n/);
     const container = document.getElementById("mainText");
     container.innerHTML = "";
 
     lines.forEach(line => {
+        // 空行をスキップ
+        if (line.trim() === "") {
+            return;
+        }
+
         let element = document.createElement("div");
 
+        // 先頭文字毎に適用するクラスを変更
         if (line.startsWith("▼")) {
             element.className = "AllTitle";
         } else if (line.startsWith("■")) {
@@ -45,6 +52,7 @@ fetch("HouseRules.txt")
             element.className = "normal";
         }
 
+        // htmlに追加
         element.textContent = line;
         container.appendChild(element);
     });
